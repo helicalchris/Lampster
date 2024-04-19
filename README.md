@@ -4,7 +4,7 @@ This library control a Lampster light, which otherwise is only possible via an a
 
 ## Understanding the BLE commands for Lampster
 
-Before I wrote the library I dod quite a lot of work to understand the BLE commands
+Before I wrote the library I did quite a lot of work to understand the BLE commands
 
 NB This doesn't yet include the wake up and timed sleep function as I havent quite figured that out yet
 
