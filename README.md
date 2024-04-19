@@ -11,14 +11,14 @@ NB This doesn't yet include the wake up and timed sleep function as I havent qui
 ### Mode Setting
 > **UUID:** 01FF5554-BA5E-F4EE-5CA1-EB1E5E4B1CE0  Handle: 0x0021
 > **Modes**
->> On Mode (write: turns light on; read: last action was to turn light on) C0 (Decimal 192 = 0xC0) 
->> Off Mode (write: turns light off; read: light is off) 40 (Decimal 64 = 0x40) 
->> RGB Mode?=0xA0 might be A8
->> White mode might be 0xC8
->> *Modes I haven't quite figured out yet...*
->> Lock Light C8. 
->> Overdrive 20
->> Alternative off - seems to work when C0 doesn't - Hex 28 however B0 seems to do something similar
+> - On Mode (write: turns light on; read: last action was to turn light on) C0 (Decimal 192 = 0xC0) 
+> - Off Mode (write: turns light off; read: light is off) 40 (Decimal 64 = 0x40) 
+> - RGB Mode?=0xA0 might be A8
+> - White mode might be 0xC8
+> - *Modes I haven't quite figured out yet...*
+> - Lock Light C8. 
+> - Overdrive 20
+> - Alternative off - seems to work when C0 doesn't - Hex 28 however B0 seems to do something similar
 > **Support:** Write and Read of UUID
 
 ### White Colour Setting
