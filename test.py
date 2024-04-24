@@ -1,10 +1,5 @@
 from lampsterble import Lampster
 import asyncio
-from base64 import b16encode
-
-# def fix_byte_result(result):
-#     return b16encode(result).decode('utf-8')
-
 
 testdevice = Lampster("Lampster", True)
 # try:
@@ -28,18 +23,6 @@ testdevice = Lampster("Lampster", True)
 
 # result = asyncio.run(testdevice.read_mode())
 
-# print(fix_byte_result(result))
-
-# result = asyncio.run(testdevice.read_rgb_value())
-# print(fix_byte_result(result))
-
-# result = asyncio.run(testdevice.read_ww_value())
-# print(fix_byte_result(result))
-
-result = asyncio.run(testdevice.read_mode())
-print(result)
-
-
 # try:
 #     result = asyncio.run(testdevice.read_rgb_value())
 #     print(result)
@@ -52,3 +35,7 @@ print(result)
 #     print(result)
 # except:
 #     print("WW Value Read Failed")
+
+#Basic test without try so exceptions are visible
+result = asyncio.run(testdevice.read_mode())
+print(result)
