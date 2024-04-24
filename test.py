@@ -2,6 +2,8 @@ from lampsterble import Lampster
 import asyncio
 
 testdevice = Lampster("Lampster", True)
+#testdevice = Lampster("C0:00:00:01:65:45")
+
 # try:
 #     asyncio.run(testdevice.set_power(True))
 #     print("Power is on")
