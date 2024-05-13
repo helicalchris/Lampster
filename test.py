@@ -39,5 +39,5 @@ testdevice = Lampster("Lampster", True)
 #     print("WW Value Read Failed")
 
 #Basic test without try so exceptions are visible
-result = asyncio.run(testdevice.read_mode())
+result = asyncio.run(testdevice.set_power(False))
 print(result)
